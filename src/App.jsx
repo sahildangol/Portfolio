@@ -5,10 +5,11 @@ const App=()=> {
   return (
   <BrowserRouter>
     <div className= {'${styles.paddingY} relative z-50 bg-primary style'}>
-      <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-        <Navbar />
-        <Hero />
-        </div>
+    <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center min-h-screen sm:min-h-[50vh]">
+    <Navbar />
+    <Hero />
+</div>
+
         <About />
         <Experience />
         <Tech />
