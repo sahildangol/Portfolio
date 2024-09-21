@@ -3,11 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@media (max-width: 640px) {
-  .bg-hero-pattern {
-      background-size: contain;
-  }
-}
+
 
 * {
   margin: 0;
