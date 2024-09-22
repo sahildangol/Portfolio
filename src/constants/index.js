@@ -159,7 +159,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Sahil proved me wrong.",
     name: "",
     designation: "",
     company: "",
@@ -167,7 +167,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Sahil does.",
     name: "",
     designation: "",
     company: "",
@@ -184,13 +184,56 @@ const testimonials = [
 ];
 
 const projects = [
+ 
   {
-    name: "Car Rent",
+    name: "CrowdFunding dapp",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developing a Web3 dapp where people can create campaigns and Recieve crowdfundings in form of cryptocurrency.",
     tags: [
       {
-        name: "react",
+        name: "Solidity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MERN",
+        color: "green-text-gradient",
+      },
+      {
+        name: "thirdweb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Advanced Computer Vision",
+    description:
+      "A comprehensive Project demonstrating the usage of Advanced Computer Vision Library including Machine Learning.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MediaPipe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CVlibrary",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Full Stack Project With AI Integration",
+    description:
+      " Advanced full-stack Next.js application for anonymous feedback, utilizing AI to provide insightful feedback suggestions. Implementing a custom authentication system with JWT tokens, sessions, and AuthJS for enhanced security.",
+    tags: [
+      {
+        name: "react & NextJs",
         color: "blue-text-gradient",
       },
       {
@@ -203,48 +246,6 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];
